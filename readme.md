@@ -8,7 +8,8 @@
 - [📝 Description](#-Description)
 - [🚀 Getting Started](#-Getting-Started)
 	- [Install `@titanium/lottie` in root of project](#Install-titaniumlottie-in-root-of-project)
-	- [Create a View](#Create-a-View)
+		- [Create an an animation in controller](#Create-an-an-animation-in-controller)
+		- [Create an an animation in view](#Create-an-an-animation-in-view)
 - [✨Features](#Features)
 - [Library versions:](#Library-versions)
 - [📚Learn More](#Learn-More)
@@ -29,16 +30,37 @@ npm install @titanium/lottie
 ```
 
 
-### Create a View
+#### Create an an animation in controller
 
 ```js
 const lottie = require('@titanium/lottie');
 
-const = lottie.createAnimationView({
-  file: 'file.json',
-  loop: false,
-  autoStart: false
+const animation = lottie.createAnimationView({
+   id: 'lottie_test',
+   file: 'lottie_sample.json',
+   loop: true,
+   autoStart: true,
+   height: 500,
+   width: Ti.UI.FILL,
 });
+
+// add the animation to any window or view
+$.index.add(animation);
+```
+
+OR
+
+#### Create an an animation in view
+
+```xml
+<AnimationView 
+   id="lottie_test" 
+   module="@titanium/lottie" 
+   file="lottie_sample.json" 
+   loop="true" 
+   autoStart="true" 
+   height="500" 
+   width="fill" />
 ```
 
 
