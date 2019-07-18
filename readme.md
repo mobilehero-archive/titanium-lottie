@@ -66,11 +66,8 @@ OR
 
 ## ✨Features
 
-Includes the following Titanium native modules:
-
-* [x] iOS: `ti.animation 2.0.0`
-* [x] Android: `ti.animation 3.0.0`
-
+* [x] Includes Titanium native iOS module: `ti.animation 2.0.0`
+* [x] Includes Titanium native Android module: `ti.animation 3.0.0`
 * [x] Display Lottie animations
 
 ## Library versions:
