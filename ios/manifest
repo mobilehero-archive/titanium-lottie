@@ -14,5 +14,5 @@ copyright: Copyright (c) 2017-present by Hans Knöchel, Michael Gangolf
 name: ti.animation
 moduleid: ti.animation
 guid: 1fcfea69-bbbf-42f8-b738-9545b5dda74d
-platform: iphone
+platform: ios
 minsdk: 7.0.0
