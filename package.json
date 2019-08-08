@@ -67,6 +67,6 @@
 		]
 	},
 	"dependencies": {
-		"@titanium/tiapp-xml": "^0.5.1"
+		"@titanium/tiapp-xml": "github:brentonhouse/titanium-tiapp-xml"
 	}
 }
