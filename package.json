@@ -1,10 +1,12 @@
 {
 	"name": "@titanium/lottie",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Native modules that allows you to use Airbnb Lottie animations with Axway Titanium native mobile apps.",
 	"main": "index.js",
 	"scripts": {
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"postinstall": "tiapp-remove-module ti.animation && tiapp-add-module ti.animation ios 2.0.0 && tiapp-add-module ti.animation android 3.0.0",
+		"postuninstall": "tiapp-remove-module ti.animation",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": {
@@ -12,6 +14,13 @@
 		"email": "brenton.house@gmail.com",
 		"url": "https://brenton.house"
 	},
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
 	"repository": {
 		"type": "git",
 		"url": "github:brentonhouse/titanium-lottie"
@@ -54,5 +63,8 @@
 				"version": "3.0.0"
 			}
 		]
+	},
+	"dependencies": {
+		"@titanium/tiapp-xml": "^0.4.2"
 	}
 }

@@ -5,16 +5,16 @@
 
 > Native modules that allows you to use [Airbnb Lottie](https://airbnb.design/lottie/) animations with Axway Titanium native mobile apps.
 
-- [📝 Description](#-Description)
-- [🚀 Getting Started](#-Getting-Started)
-	- [Install `@titanium/lottie` in root of project](#Install-titaniumlottie-in-root-of-project)
-		- [Create an an animation in controller](#Create-an-an-animation-in-controller)
-		- [Create an an animation in view](#Create-an-an-animation-in-view)
-- [✨Features](#Features)
-- [Library versions:](#Library-versions)
-- [📚Learn More](#Learn-More)
-- [📣 Feedback](#-Feedback)
-- [©️ Legal](#️-Legal)
+- [📝 Description](#-description)
+- [🚀 Getting Started](#-getting-started)
+	- [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
+		- [Create an an animation in controller](#create-an-an-animation-in-controller)
+		- [Create an an animation in view](#create-an-an-animation-in-view)
+- [✨Features](#features)
+- [Library versions:](#library-versions)
+- [📚Learn More](#learn-more)
+- [📣 Feedback](#-feedback)
+- [©️ Legal](#️-legal)
 
 
 ## 📝 Description
@@ -25,7 +25,7 @@ This is a repackaging of the compiled iOS and Android modules for [Ti.Animation]
 
 ### Install `@titanium/lottie` in root of project
 
-```
+```bash
 npm install @titanium/lottie
 ```
 
