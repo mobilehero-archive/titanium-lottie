@@ -7,7 +7,6 @@
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"postinstall": "tiapp-install-module",
 		"postuninstall": "tiapp-uninstall-module",
-		"test2": "tiapp-install-module",
 		"test": "npm install --ignore-scripts && npm run list-files"
 	},
 	"author": {
@@ -67,6 +66,6 @@
 		]
 	},
 	"dependencies": {
-		"@titanium/tiapp-xml": "github:brentonhouse/titanium-tiapp-xml"
+		"@titanium/tiapp-xml": "^0.6.0"
 	}
 }
