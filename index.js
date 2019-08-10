@@ -1,2 +1,2 @@
 
-module.exports = require('ti.animation');
+module.exports = require('titanium-lottie');
