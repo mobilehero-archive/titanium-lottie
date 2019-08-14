@@ -1,2 +1,2 @@
 
-module.exports = require('titanium-lottie');
+module.exports = require('titanium_lottie');
