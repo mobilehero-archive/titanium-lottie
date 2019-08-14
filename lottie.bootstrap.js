@@ -1,1 +1,1 @@
-global.binding.register('titanium-lottie', require('ti.animation'));
+global.binding.register('titanium_lottie', require('ti.animation'));
