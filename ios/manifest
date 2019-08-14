@@ -1,8 +1,0 @@
-#
-# this is your module manifest and used by Titanium
-# during compilation, packaging, distribution, etc.
-#
-description: titanium-lottie
-author: Hans Knöchel
-license: Apache 2
-copyright: Copyright (c) 2017-present by Hans Knöchel, Michael Gangolf

@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/lottie",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Native modules that allows you to use Airbnb Lottie animations with Axway Titanium native mobile apps.",
 	"main": "index.js",
 	"scripts": {
@@ -43,7 +43,7 @@
 	],
 	"titanium": {
 		"type": "native-module",
-		"version": "1.0.7",
+		"version": "1.0.8",
 		"moduleid": "titanium-lottie",
 		"name": "titanium-lottie",
 		"platform": {
@@ -55,7 +55,7 @@
 					"i386",
 					"x86_64"
 				],
-				"minsdk": "7.0.0",
+				"minsdk": "8.1.0",
 				"guid": "1fcfea69-bbbf-42f8-b738-9545b5dda74d"
 			},
 			"android": {
@@ -65,7 +65,7 @@
 					"armeabi-v7a",
 					"x86"
 				],
-				"minsdk": "7.0.0",
+				"minsdk": "8.1.0",
 				"guid": "0af214dd-5fa0-4cc7-b8c3-268fb78a03d5"
 			}
 		}
