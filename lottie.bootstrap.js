@@ -1,1 +1,0 @@
-global.binding.register('titanium_lottie', require('ti.animation'));
