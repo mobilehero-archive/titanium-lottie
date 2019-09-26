@@ -8,7 +8,7 @@
 		"postinstall": "tiapp-install-module",
 		"postuninstall": "tiapp-uninstall-module",
 		"test": "npm install --ignore-scripts && npm run list-files",
-		"prepublishOnly": "bump"
+		"prepublishOnly": "git pull && bump"
 	},
 	"maintainers": [
 		{
