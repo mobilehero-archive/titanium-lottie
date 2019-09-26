@@ -1,3 +1,12 @@
+
+
+<a href="#-titaniumlottie">
+	<p align="center">
+	<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="90%" />
+	<img src="https://cdn.secure-api.org/images/border-line-3.png" width="80%" height="50" />
+	</p>
+</a>
+
 # @titanium/lottie
 
 [![@titanium/lottie](https://img.shields.io/npm/v/@titanium/lottie.png)](https://www.npmjs.com/package/@titanium/lottie)
@@ -5,16 +14,16 @@
 
 > Native modules that allows you to use [Airbnb Lottie](https://airbnb.design/lottie/) animations with Axway Titanium native mobile apps.
 
-- [📝 Description](#-description)
-- [🚀 Getting Started](#-getting-started)
-	- [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
-		- [Create an an animation in controller](#create-an-an-animation-in-controller)
-		- [Create an an animation in view](#create-an-an-animation-in-view)
-- [✨Features](#features)
-- [Library versions:](#library-versions)
-- [📚Learn More](#learn-more)
-- [📣 Feedback](#-feedback)
-- [©️ Legal](#️-legal)
+* [📝 Description](#-description)
+* [🚀 Getting Started](#-getting-started)
+	* [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
+		* [Create an an animation in controller](#create-an-an-animation-in-controller)
+		* [Create an an animation in view](#create-an-an-animation-in-view)
+* [✨Features](#features)
+* [Library versions:](#library-versions)
+* [📚Learn More](#learn-more)
+* [📣 Feedback](#-feedback)
+* [©️ Legal](#️-legal)
 
 
 ## 📝 Description
