@@ -2,14 +2,15 @@
 
 <a href="#titaniumlottie">
 	<p align="center">
-	<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
-	<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
+		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
+		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
 	</p>
 </a>
 
 # @titanium/lottie
 
 [![@titanium/lottie](https://img.shields.io/npm/v/@titanium/lottie.png)](https://www.npmjs.com/package/@titanium/lottie)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-lottie)](https://dependabot.com)
 
 
 > Native modules that allows you to use [Airbnb Lottie](https://airbnb.design/lottie/) animations with Axway Titanium native mobile apps.
