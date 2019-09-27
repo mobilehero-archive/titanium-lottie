@@ -12,8 +12,9 @@
 [![@titanium/lottie](https://img.shields.io/npm/v/@titanium/lottie.png)](https://www.npmjs.com/package/@titanium/lottie)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-lottie)](https://dependabot.com)
 
+> This is an experiment by [Brenton House](https://brenton.house) using open-source projects.  You are welcome to try it out but be aware of the risks_
 
-> Native modules that allows you to use [Airbnb Lottie](https://airbnb.design/lottie/) animations with Axway Titanium native mobile apps.
+<br/>
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
@@ -29,7 +30,9 @@
 
 ## 📝 Description
 
-This is a repackaging of the compiled iOS and Android modules for [Ti.Animation](https://github.com/m1ga/ti.animation) to allow for installation via npm.
+> Native modules that allows you to use [Airbnb Lottie](https://airbnb.design/lottie/) animations with Axway Titanium native mobile apps.
+>    
+> This is a repackaging of the compiled iOS and Android modules for [Ti.Animation](https://github.com/m1ga/ti.animation) to allow for installation via npm.
 
 ## 🚀 Getting Started
 
@@ -95,8 +98,8 @@ The Titanium modules use external libraries
 
 ## 📚Learn More
 
-- [Ti.Animation GitHub Repo](https://github.com/m1ga/ti.animation) - Repo for Ti.Animations modules
-- [LottieFiles](http://www.lottiefiles.com/) - Free Lottie animations
+⭐  [Ti.Animation GitHub Repo](https://github.com/m1ga/ti.animation) - Repo for Ti.Animations modules    
+⭐  [LottieFiles](http://www.lottiefiles.com/) - Free Lottie animations    
 
 
 ## 📣 Feedback
