@@ -18,3 +18,6 @@ update_configs:
         - match:
             dependency_name: "@titanium/tiapp-xml"
             update_type: "all"
+        - match:
+            dependency_name: "eslint*"
+            update_type: "semver:minor"
