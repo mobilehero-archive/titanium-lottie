@@ -1,0 +1,20 @@
+version: 1	
+
+update_configs:	
+
+  - package_manager: "javascript"	
+    directory: "/"	
+    update_schedule: "live"	
+    default_assignees: 	
+    - "brentonhouse"	
+    default_labels:	
+    - "dependencies"	
+    - "dependabot"	
+    allowed_updates:	
+      - match:	
+          dependency_type: "direct"	
+    version_requirement_updates: "increase_versions"	
+    automerged_updates:
+        - match:
+            dependency_name: "@titanium/tiapp-xml"
+            update_type: "all"
