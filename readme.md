@@ -1,26 +1,15 @@
-
-
-<a href="#titaniumlottie">
-	<p align="center">
-		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
-		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
-	</p>
-</a>
-
 # @titanium/lottie
 
 [![@titanium/lottie](https://img.shields.io/npm/v/@titanium/lottie.png)](https://www.npmjs.com/package/@titanium/lottie)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-lottie)](https://dependabot.com)
 
-> This is an experiment by [Brenton House](https://brenton.house) using open-source projects.  You are welcome to try it out but be aware of the risks_
-
 <br/>
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
-	* [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
-		* [Create an an animation in controller](#create-an-an-animation-in-controller)
-		* [Create an an animation in view](#create-an-an-animation-in-view)
+  * [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
+    * [Create an an animation in controller](#create-an-an-animation-in-controller)
+    * [Create an an animation in view](#create-an-an-animation-in-view)
 * [✨Features](#features)
 * [Library versions:](#library-versions)
 * [📚Learn More](#learn-more)
@@ -80,7 +69,7 @@ OR
 ## ✨Features
 
 * [x] Includes Titanium native iOS module: `ti.animation 2.0.0`
-* [x] Includes Titanium native Android module: `ti.animation 3.0.0`
+* [x] Includes Titanium native Android module: `ti.animation 4.0.0`
 * [x] Display Lottie animations
 
 ## Library versions:
@@ -89,7 +78,7 @@ The Titanium modules use external libraries
 
 |Library|Platform|Version|Build Date|
 |---|---|---|---|
-| [Airbnb Lottie](https://github.com/airbnb/lottie-android) | Android | 2.6.1 | 2018/09/06 |
+| [Airbnb Lottie](https://github.com/airbnb/lottie-android) | Android | 3.4.0 | 2020/02/22 |
 | [Airbnb Lottie](https://github.com/airbnb/lottie-ios) | iOS | 2.5.2 | 2018/12/10 |
 
 
