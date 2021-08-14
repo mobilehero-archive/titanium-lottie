@@ -1,3 +1,32 @@
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<h1 align="center">
+	🪦 RIP Axway Amplify Titanium (2010 - 2022)
+	</h1>
+</a>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		<img src="https://cdn.secure-api.org/images/RIP-Axway-Amplify-Titanium.png" alt="RIP Axway Amplify Titanium (2010 - 2022)" width="80%" />
+	</p>
+</a>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<p align="center">
+		🪦 &nbsp; RIP Axway Amplify Titanium (2010 - 2022)
+	</p>
+</a>
+<p>&nbsp;</p>
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<h2 align="center">
+		🛑 This project is no longer being maintained 🛑
+	</h2>
+</a>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
 # @titanium/lottie
 
 [![@titanium/lottie](https://img.shields.io/npm/v/@titanium/lottie.png)](https://www.npmjs.com/package/@titanium/lottie)
@@ -7,9 +36,9 @@
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
-  * [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
-    * [Create an an animation in controller](#create-an-an-animation-in-controller)
-    * [Create an an animation in view](#create-an-an-animation-in-view)
+	* [Install `@titanium/lottie` in root of project](#install-titaniumlottie-in-root-of-project)
+		* [Create an an animation in controller](#create-an-an-animation-in-controller)
+		* [Create an an animation in view](#create-an-an-animation-in-view)
 * [✨Features](#features)
 * [Library versions:](#library-versions)
 * [📚Learn More](#learn-more)
