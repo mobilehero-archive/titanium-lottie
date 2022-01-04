@@ -46,6 +46,8 @@
 * [©️ Legal](#️-legal)
 
 
+<br/>
+
 ## 📝 Description
 
 > Native modules that allows you to use [Airbnb Lottie](https://airbnb.design/lottie/) animations with Axway Titanium native mobile apps.
