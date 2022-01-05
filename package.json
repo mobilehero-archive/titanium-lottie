@@ -1,14 +1,15 @@
 {
 	"name": "@titanium/lottie",
-	"version": "1.0.29",
-	"description": "Native modules that allows you to use Airbnb Lottie animations with Axway Titanium native mobile apps.",
+	"version": "1.0.30",
+	"description": "⭐  Axway Amplify modules to use Airbnb Lottie animations with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
-		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"postinstall": "npx @titanium/tiapp-xml install",
 		"postuninstall": "npx @titanium/tiapp-xml uninstall",
-		"test": "npm install --ignore-scripts && npm run list",
-		"prepublishOnly2": "git pull && bump"
+		"test": "npm install --ignore-scripts && npm run prep",
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"maintainers": [
 		{
@@ -25,7 +26,7 @@
 	"bugs": {
 		"url": "https://github.com/brentonhouse/titanium-lottie/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-lottie#readme",
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -40,6 +41,15 @@
 		"lottie",
 		"animation",
 		"titanium-native-module",
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
 		"brenton-house"
 	],
 	"titanium": {
