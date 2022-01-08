@@ -1,30 +1,30 @@
 {
 	"name": "@titanium/lottie",
-	"version": "1.0.31",
+	"version": "1.0.32",
 	"description": "⭐  Axway Amplify modules to use Airbnb Lottie animations with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
-		"prep": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"postinstall": "npx @titanium/tiapp-xml install",
 		"postuninstall": "npx @titanium/tiapp-xml uninstall",
-		"test": "npm install --ignore-scripts && npm run prep",
-		"prepublishOnly2": "git pull && npm test && bump insane",
-		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts",
+		"test": "npm run prep",
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"maintainers": [
 		{
-			"name": "Brenton House",
-			"email": "brenton.house@gmail.com",
-			"url": "https://brenton.house"
+			"name": "Brenton House"
 		}
 	],
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-lottie"
+		"url": "github:mobilehero-archive/titanium-lottie"
 	},
 	"license": "Apache-2.0",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-lottie/issues"
+		"url": "https://github.com/mobilehero-archive/titanium-lottie/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
@@ -87,5 +87,36 @@
 	},
 	"developerDependencies": {
 		"lodash": "^4.17.15"
+	},
+	"devDependencies": {
+		"@geek/eslint-config": "^1.0.3",
+		"@titanium/eslint-config": "^1.0.9",
+		"eslint": "^8.6.0"
+	},
+	"dependencies": {
+		"@geek/cache": "^1.0.2",
+		"@geek/config": "^0.2.4",
+		"@geek/dotenv": "^0.0.9",
+		"@geek/jsonc": "^1.0.4",
+		"@geek/jwt": "^1.0.1",
+		"@geek/logger": "^1.0.18",
+		"@geek/retry": "^1.0.0",
+		"@geek/spawn": "^0.0.3",
+		"@geek/spinner": "^1.0.0",
+		"@geek/tld": "^2.0.1-1",
+		"@titanium/appcelerator": "^6.0.4",
+		"@titanium/bluebird": "^3.7.9",
+		"@titanium/errors": "^1.0.7",
+		"@titanium/essentials": "^1.0.38",
+		"@titanium/events": "^1.0.20",
+		"@titanium/eventsource": "^1.0.5",
+		"@titanium/jwt": "^1.0.9",
+		"@titanium/module-copier": "^1.0.15",
+		"@titanium/please": "^1.0.17",
+		"@titanium/polyfill": "^1.0.18",
+		"@titanium/querystring": "^1.0.3",
+		"@titanium/tiapp-xml": "^1.0.15",
+		"@titanium/titanium": "^5.4.8",
+		"@titanium/turbo": "^2.2.24"
 	}
 }
