@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/lottie",
-	"version": "1.0.62",
+	"version": "1.0.63",
 	"description": "⭐  Axway Amplify modules to use Airbnb Lottie animations with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -108,7 +108,7 @@
 		"@titanium/bluebird": "^3.7.36",
 		"@titanium/errors": "^1.0.32",
 		"@titanium/essentials": "^1.0.66",
-		"@titanium/events": "^1.0.43",
+		"@titanium/events": "^1.0.44",
 		"@titanium/eventsource": "^1.0.36",
 		"@titanium/jwt": "^1.0.33",
 		"@titanium/module-copier": "^1.0.41",
@@ -116,7 +116,7 @@
 		"@titanium/polyfill": "^1.0.40",
 		"@titanium/querystring": "^1.0.31",
 		"@titanium/tiapp-xml": "^1.0.41",
-		"@titanium/titanium": "^5.4.38",
+		"@titanium/titanium": "^5.4.39",
 		"@titanium/turbo": "^2.2.58"
 	}
 }
