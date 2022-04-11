@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/lottie",
-	"version": "1.0.75",
+	"version": "1.0.76",
 	"description": "⭐  Axway Amplify modules to use Airbnb Lottie animations with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -91,7 +91,7 @@
 	"devDependencies": {
 		"@geek/eslint-config": "^1.0.3",
 		"@titanium/eslint-config": "^1.0.48",
-		"eslint": "^8.11.0"
+		"eslint": "^8.13.0"
 	},
 	"dependencies": {
 		"@geek/cache": "^1.0.2",
@@ -104,19 +104,19 @@
 		"@geek/spawn": "^1.0.2",
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
-		"@titanium/appcelerator": "^6.0.42",
+		"@titanium/appcelerator": "^6.0.43",
 		"@titanium/bluebird": "^3.7.47",
 		"@titanium/errors": "^1.0.45",
 		"@titanium/essentials": "^1.0.75",
 		"@titanium/events": "^1.0.52",
 		"@titanium/eventsource": "^1.0.48",
-		"@titanium/jwt": "^1.0.44",
+		"@titanium/jwt": "^1.0.45",
 		"@titanium/module-copier": "^1.0.50",
 		"@titanium/please": "^1.0.53",
 		"@titanium/polyfill": "^1.0.51",
-		"@titanium/querystring": "^1.0.42",
+		"@titanium/querystring": "^1.0.43",
 		"@titanium/tiapp-xml": "^1.0.53",
-		"@titanium/titanium": "^5.4.50",
-		"@titanium/turbo": "^2.2.69"
+		"@titanium/titanium": "^5.4.51",
+		"@titanium/turbo": "^2.2.70"
 	}
 }
